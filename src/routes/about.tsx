@@ -65,7 +65,7 @@ function About() {
         />
         <div>
           <p className="eyebrow">Founder &amp; Herbalist</p>
-          <h2 className="mt-3 font-display text-3xl">A note from Fawad</h2>
+          <h2 className="mt-3 font-display text-3xl">A note from Fawad Khan</h2>
           <p className="mt-5 text-sm text-muted-foreground">
             "I grew up watching my grandmother mix turmeric into warm milk for every cold, every
             ache, every bad night's sleep. When I couldn't find that same honesty in a bottle as
@@ -75,7 +75,7 @@ function About() {
             "Our promise is simple: real herbs, real dosages, real transparency about what's in
             the jar. Nothing to prove, nothing to hide. Just wellness the way it used to be made."
           </p>
-          <p className="mt-6 font-display text-lg">Fawad Rehman</p>
+          <p className="mt-6 font-display text-lg">Fawad Khan</p>
           <Button variant="quiet" size="xl" className="mt-8" asChild>
             <Link to="/shop">Explore the collection</Link>
           </Button>
