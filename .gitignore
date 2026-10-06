@@ -3,5 +3,6 @@ dist/
 .output/
 .nitro/
 .env.local
+.vercel
 .env.example
 *.local
