@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#F4F1E8"/>
+    <circle cx="870.4" cy="122.88" r="286.72" fill="#E7DDBF" opacity="0.5"/>
+    <circle cx="81.92" cy="942.08" r="225.28" fill="#DCE7D2" opacity="0.55"/>
+  
+    
+    <g transform="translate(417.0,614.4) rotate(-20) scale(0.6)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    
+    <g transform="translate(612.0,532.48) rotate(20) scale(0.5)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    <g transform="translate(432.0,245.76)">
+      <path d="M0,40 Q0,0 40,0 L120,0 Q160,0 160,40 L160,260 Q160,290 130,290 L30,290 Q0,290 0,260 Z" fill="#E7DDBF"/>
+      <path d="M0,40 Q0,0 40,0 L120,0 Q160,0 160,40 L160,260 Q160,290 130,290 L30,290 Q0,290 0,260 Z" fill="url(#glass)"/>
+      <rect x="55" y="-18" width="50" height="34" rx="8" fill="#C9862B"/>
+      <rect x="18" y="100" width="124" height="150" rx="8" fill="#FBF8F0" opacity="0.93"/>
+      <text x="80" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#3c3b2f">Chamomile</text>
+      <text x="80" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#6b6a58">Wellness Tea</text>
+      <rect x="55" y="205" width="50" height="3" fill="#C9862B"/>
+    </g>
+    
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#F4F1E8"/>
+    <circle cx="870.4" cy="122.88" r="286.72" fill="#E7DDBF" opacity="0.5"/>
+    <circle cx="81.92" cy="942.08" r="225.28" fill="#DCE7D2" opacity="0.55"/>
+  
+    
+    <g transform="translate(442.0,634.88) rotate(-18) scale(0.62)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    
+    <g transform="translate(607.0,563.2) rotate(22) scale(0.5)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    <g transform="translate(442.0,286.72)">
+      <rect x="0" y="70" width="140" height="230" rx="18" fill="#C9862B"/>
+      <rect x="0" y="70" width="140" height="230" rx="18" fill="url(#glass)"/>
+      <rect x="40" y="0" width="60" height="80" rx="10" fill="#3E5C3A"/>
+      <rect x="55" y="-40" width="30" height="50" rx="8" fill="#3E5C3A"/>
+      <rect x="14" y="110" width="112" height="150" rx="6" fill="#FBF8F0" opacity="0.92"/>
+      <text x="70" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#3c3b2f">Turmeric</text>
+      <text x="70" y="198" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#6b6a58">Elixir</text>
+      <rect x="30" y="215" width="80" height="3" fill="#8B5E22"/>
+    </g>
+    
+</svg>

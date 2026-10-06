@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#F4F1E8"/>
+    <circle cx="870.4" cy="122.88" r="286.72" fill="#E7DDBF" opacity="0.5"/>
+    <circle cx="81.92" cy="942.08" r="225.28" fill="#DCE7D2" opacity="0.55"/>
+  
+    
+    <g transform="translate(412.0,614.4) rotate(-15) scale(0.55)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    
+    <g transform="translate(602.0,512.0) rotate(18) scale(0.6)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+    <g transform="translate(422.0,327.68)">
+      <ellipse cx="90" cy="230" rx="90" ry="16" fill="#00000012"/>
+      <rect x="0" y="60" width="180" height="170" rx="26" fill="#DCE7D2"/>
+      <rect x="0" y="60" width="180" height="170" rx="26" fill="url(#glass)"/>
+      <rect x="-6" y="20" width="192" height="46" rx="14" fill="#3E5C3A"/>
+      <circle cx="90" cy="145" r="58" fill="#FBF8F0" opacity="0.93"/>
+      <text x="90" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#3c3b2f">Neem & Honey</text>
+      <text x="90" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#6b6a58">Healing Balm</text>
+      <rect x="65" y="172" width="50" height="3" fill="#8B5E22"/>
+    </g>
+    
+</svg>

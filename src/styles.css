@@ -1,0 +1,133 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * HerbHealth design system.
+ * Soft herbal cream, sage & forest green, warm gold accent, charcoal text.
+ * All colors are oklch semantic tokens — never hardcode colors in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-blush: var(--blush);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.25rem;
+  /* #F6F4EC herbal cream */
+  --background: oklch(0.968 0.012 100);
+  /* #26302A deep forest charcoal */
+  --foreground: oklch(0.27 0.02 145);
+  --card: oklch(0.99 0.006 100);
+  --card-foreground: oklch(0.27 0.02 145);
+  --popover: oklch(0.99 0.006 100);
+  --popover-foreground: oklch(0.27 0.02 145);
+  /* #274B2E deep forest green */
+  --primary: oklch(0.32 0.06 145);
+  --primary-foreground: oklch(0.98 0.008 100);
+  /* #D7E2C7 sage */
+  --secondary: oklch(0.87 0.045 125);
+  --secondary-foreground: oklch(0.27 0.02 145);
+  --muted: oklch(0.94 0.018 110);
+  --muted-foreground: oklch(0.5 0.03 140);
+  /* #C08A34 warm herbal gold */
+  --accent: oklch(0.68 0.11 75);
+  --accent-foreground: oklch(0.2 0.02 145);
+  --gold: oklch(0.68 0.11 75);
+  --gold-foreground: oklch(0.2 0.02 145);
+  --blush: oklch(0.87 0.05 130);
+  --destructive: oklch(0.55 0.19 27);
+  --destructive-foreground: oklch(0.98 0.004 90);
+  --border: oklch(0.89 0.025 110);
+  --input: oklch(0.89 0.025 110);
+  --ring: oklch(0.68 0.11 75);
+  --sidebar: oklch(0.968 0.012 100);
+  --sidebar-foreground: oklch(0.27 0.02 145);
+  --sidebar-primary: oklch(0.32 0.06 145);
+  --sidebar-primary-foreground: oklch(0.98 0.008 100);
+  --sidebar-accent: oklch(0.94 0.018 110);
+  --sidebar-accent-foreground: oklch(0.27 0.02 145);
+  --sidebar-border: oklch(0.89 0.025 110);
+  --sidebar-ring: oklch(0.68 0.11 75);
+
+  --shadow-soft: 0 18px 45px -28px oklch(0.27 0.02 145 / 0.35);
+  --gradient-cream: linear-gradient(180deg, oklch(0.985 0.01 100), oklch(0.93 0.03 120));
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+  }
+}
+
+@utility eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-muted-foreground);
+}
+
+@utility shadow-soft {
+  box-shadow: var(--shadow-soft);
+}

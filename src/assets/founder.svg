@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1024 1280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1280" fill="#F4F1E8"/>
+    <circle cx="870.4" cy="153.6" r="286.72" fill="#E7DDBF" opacity="0.5"/>
+    <circle cx="81.92" cy="1177.6000000000001" r="225.28" fill="#DCE7D2" opacity="0.55"/>
+  
+
+    <g transform="translate(180,1150) rotate(-10) scale(1.0)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#3E6B3E" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#6E9A56" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#6E9A56" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+
+    <g transform="translate(860,1100) rotate(14) scale(1.1)">
+      <path d="M0,0 C -40,-70 -20,-150 10,-190 C 40,-150 55,-70 20,0 Z" fill="#4C7A4A" opacity="0.9"/>
+      <path d="M0,0 C 10,-60 30,-120 55,-150 C 65,-100 55,-40 20,0 Z" fill="#7FAE63" opacity="0.85"/>
+      <path d="M10,-190 C 10,-140 12,-70 10,0" stroke="#7FAE63" stroke-width="2.5" fill="none" opacity="0.6"/>
+    </g>
+<g transform="translate(512,560)">
+  <circle cx="0" cy="0" r="260" fill="#E7DDBF"/>
+  <circle cx="0" cy="-40" r="150" fill="#D8B98A"/>
+  <path d="M-150,60 Q0,-40 150,60 L150,260 Q0,320 -150,260 Z" fill="#3E5C3A"/>
+  <path d="M-150,-60 Q0,-170 150,-60 Q150,-120 0,-150 Q-150,-120 -150,-60 Z" fill="#2E4A2C"/>
+</g>
+<rect x="252" y="1000" width="520" height="3" fill="#8B5E22"/>
+
+</svg>
