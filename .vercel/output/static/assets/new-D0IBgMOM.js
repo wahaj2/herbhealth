@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";import{i as t}from"./index-Ch0G2sWn.js";import{t as n}from"./ProductForm-CiIXE2hp.js";var r=e();function i(){let e=t.useLoaderData();return(0,r.jsxs)(`div`,{className:`p-8`,children:[(0,r.jsx)(`h1`,{className:`font-display text-2xl mb-8`,children:`New Product`}),(0,r.jsx)(n,{categories:e})]})}export{i as component};
